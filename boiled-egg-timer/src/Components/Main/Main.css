@@ -1,0 +1,22 @@
+.main-title {
+  font-family: 'Arco';
+  font-size: 24px;
+  color: #ffd963;
+  -webkit-text-stroke: 0.3px #000000;
+    margin: 34px 0px 0px 34px;
+    z-index: 100;
+}
+
+.gradient-egg {
+  background: linear-gradient(45deg, #fffcec, #ffd79a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title-img{
+    z-index: -10;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}

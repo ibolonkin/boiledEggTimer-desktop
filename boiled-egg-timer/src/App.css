@@ -1,0 +1,9 @@
+body {
+    background-color: #FFEFAE;
+}
+
+@font-face {
+    font-family: 'Arco';
+    src: local(arco-cyrillic),
+        url("./fonts/arco-cyrillic.otf") format("truetype");
+}

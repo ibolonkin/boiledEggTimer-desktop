@@ -11,14 +11,18 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 500,
     height: 600,
+    resizable: false,
+    fullscreenable: false,
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
+      nodeIntegrationInWorker: true,
+      devTools: false,
     },
   });
   mainWindow.setMenuBarVisibility(false);
 
   //Development
-  mainWindow.loadURL('http://localhost:3000')
+  mainWindow.loadURL('http://localhost:3000');
   //Production
   //...
 
